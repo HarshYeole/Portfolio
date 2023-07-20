@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    width: 18vw;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    display: flex;
+}
+
+.sidebar nav {
+    padding: 80px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(236, 176, 66);
+}
+.sidebarGo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 230px;
+}
+.strips{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 20px;
+}
+.main{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #091434, #1f7ea9);
+    position: fixed;
+}
+.aboutinfo {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    overflow-y: scroll;
+}
+
+.profile{
+    margin-top: 4em;
+    margin-left: 15px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    margin-top: 0.2em;
+    margin-left: 15px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.skills{
+    margin-left: 15px;
+}
+.profile .point{
+    stroke: #34bfff;
+    stroke-width: 2;
+    fill: none;
+}
+.about .point{
+    stroke: #34bfff;
+    stroke-width: 2; 
+    fill: none;
+}
+
+.skills .point{
+    stroke: #34bfff;
+    stroke-width: 2;
+    fill: none;
+}
+.skills .bar1{
+    stroke: #f0f3f5;
+    opacity: 1;
+    stroke-width: 10;
+    fill: none;
+}
+.skills .bar{
+    stroke: #34bfff;
+    opacity: 1;
+    stroke-width: 10;
+    fill: none;
+}
+.skills g .point{
+    stroke: #34bfff;
+    stroke-width: 10;
+    fill: none;
+}
+.profile .info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 90px;
+    margin-top: 90px;
+
+}
+.aboutinfo .photo{
+    padding: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.photo .btn{
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 30px;
+    background: #34bfff;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.photo .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.photo .btn:hover{
+    background: #0caaf3;
+}

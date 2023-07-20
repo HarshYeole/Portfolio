@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    width: 18vw;
+    height: 100vh;
+    float: left;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 80px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(236, 176, 66);
+}
+.sidebarGo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 230px;
+}
+.strips{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 20px;
+}
+.things {
+    position: absolute; 
+    top: 10px; 
+    left: 16%; 
+    text-align: center; 
+}
+
+.workinfo1{   
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.workinfo2{
+    margin-left: 40px;
+    width: 25vw;
+    font-size: 40px;
+    font-weight: bold;
+    color: blacl;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #ba94692a;
+}
+
+.swiper {
+    position: relative;
+    width: 90%;
+
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: end;
+}
+
+.card {
+    width: 20em;
+    height: 75%;
+    background: white;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+    padding: 0.5em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.card_image {
+    width: 18.5em;
+    height: 12em;
+    
+    padding: 3px;
+}
+
+.card_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    top: 0.5em;
+    color: rgb(236, 176, 66);
+}
+
+.card_name {
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: rgb(236, 176, 66);
+}
+
+.card_text {
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card_btn {
+    font-family: 'Poppins', sans-serif;
+    width: 10em;
+    background: rgb(236, 176, 66);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}

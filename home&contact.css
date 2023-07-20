@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    width: 18vw;
+    height: 100vh;
+    float: left;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 80px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(236, 176, 66);
+}
+
+.main {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #ba94692a;
+}
+
+.infocontainer {
+    height: 30vh;
+    width: 30vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+.devinfo {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    margin-left: 100px;
+}
+
+.devinfo .name1 {
+    padding: 0;
+    width: 25vw;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.devinfo .name2 {
+    padding: 0;
+    width: 25vw;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.devinfo .name3 {
+    width: 25vw;
+    padding: 3px;
+    font-size: 25px;
+}
+
+.devinfo button {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    width: 10vw;
+    height: 7vh;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: rgb(236, 176, 66);
+}
+
+
+.devinfo .buttons button a{
+    text-decoration: none;
+    color: white;
+}
+
+.devinfo .buttons button:hover {
+    background: rgb(240, 206, 94);
+}
+
+.devpic img {
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 500px;
+    width: 500px;
+    mix-blend-mode: multiply;
+    display: flex;
+}
+
+.Hello .contact-info1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: rgb(235, 172, 55);
+}
+
+.Hello .contact-info2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Hello .outer {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(253, 253, 253);
+    width: 36vw;
+    height: 75vh;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 20px;
+    display: flow-root;
+}
+
+.Name label {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Email label {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Message label {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input-container-name input {
+    font-family: 'Poppins', sans-serif;
+    width: 33.5vw;
+    height: 10vh;
+    margin: 10px;
+    background: rgb(238, 236, 236);
+    border-radius: 20px;
+    border: none;
+}
+
+.input-container-email input {
+    font-family: 'Poppins', sans-serif;
+    width: 33.5vw;
+    height: 10vh;
+    margin: 10px;
+    background: rgb(238, 236, 236);
+    border-radius: 20px;
+    border: none;
+}
+
+.input-container-message textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    width: 33.5vw;
+    height: 26vh;
+    margin: 10px;
+    background: rgb(238, 236, 236);
+    border-radius: 20px;
+    border: none;
+    resize: none;
+}
+
+.outer .formbutton {
+    font-family: 'Poppins', sans-serif;
+    width: 7vw;
+    height: 5vh;
+    margin-left: 410px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(234, 177, 71);
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.outer .formbutton:hover {
+    background: rgb(240, 206, 94);
+}
+
+.sidebarGo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 230px;
+}
+.strips{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 20px;
+}
+.social .other{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    font-size: 30px;
+    margin-left: 200px;
+    color: rgb(234, 177, 71);
+}
+.social .socialinfo{
+    margin-left: 200px;
+}
+.social .socialinfo .email-img{
+    margin-left: 70px;
+    margin-top: 8px;
+    float: left;
+}
+.social .email {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+    padding-bottom: 20px;
+    
+}
+.social .email a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.social .email a:hover{
+    font-weight: bold;
+}
+.social .socialinfo .github-img{
+    margin-left: 70px;
+    margin-top: 8px;
+    float: left;
+}
+.social .github {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+    padding-bottom: 20px;
+}
+.social .github a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.social .github a:hover{
+    font-weight: bold;
+}
+.social .socialinfo .linkedin-img{
+    margin-left: 70px;
+    margin-top: 8px;
+    float: left;
+}
+
+.social .linkedin {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+    padding-bottom: 20px;
+}
+.social .linkedin a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.social .socialinfo .insta-img{
+    margin-left: 64px;
+    margin-top: 5px;
+    float: left;
+}
+.social .instagram {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+}
+.social .insta a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 1200px) {
+    .sidebar{
+        transform: translate(-300px, 0px);
+        position: absolute;
+    }
+}
+@media (max-width: 880px) {
+    .devpic img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 600px) {
+    .devpic img{
+        margin-top: 150px;
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width: 900px) {
+    .devinfo .buttons button{
+        width: 30vw;
+        height: 5vh;
+    }
+}

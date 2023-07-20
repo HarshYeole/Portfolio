@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh | Creative Developer</title>
+    <link rel="stylesheet" href="home&contact.css">
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <img class="cross" src="cross.png" width="25px">
+            <img class="strips" src="strips.png" width="25px">
+        </div>
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/work.html">Work</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="devinfo">
+            <span class="name1">Hi, my name is</span>
+            <span class="name2">Harsh</span>
+            <span class="name3">I am <span id="element"></span></span>
+            <div class="buttons"><button><a href="/contact.html">Get in touch></a></button></div>
+        </div>
+        <div class="devpic"><img src="portfolio.png" width="500px" height="500px" ></div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['a Programmer.', 'a Python Developer.', 'a Web Enthusiast.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="sidebar.js"></script>
+</body>
+</html>
