@@ -162,3 +162,6 @@ body {
     margin-top: 0.5em;
     cursor: pointer;
 }
+.card_btn:hover{
+    background: rgb(237, 195, 116);
+}

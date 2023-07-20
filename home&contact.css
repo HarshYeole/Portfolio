@@ -91,18 +91,12 @@
     font-weight: bold;
     border: none;
     border-radius: 25px;
+    color: white;
     cursor: pointer;
     background: rgb(236, 176, 66);
 }
-
-
-.devinfo .buttons button a{
-    text-decoration: none;
-    color: white;
-}
-
 .devinfo .buttons button:hover {
-    background: rgb(240, 206, 94);
+    background: rgb(240, 206, 94); 
 }
 
 .devpic img {
@@ -294,17 +288,17 @@
 }
 .social .linkedin a{
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
 }
 .social .socialinfo .insta-img{
-    margin-left: 64px;
+    margin-left: 70px;
     margin-top: 5px;
     float: left;
 }
 .social .instagram {
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     margin-left: 110px;
 }
