@@ -124,84 +124,54 @@
     font-size: 40px;
     font-weight: bold;
 }
-
-.Hello .outer {
+form{
     font-family: 'Poppins', sans-serif;
-    background: rgb(253, 253, 253);
-    width: 36vw;
-    height: 75vh;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 90px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 1vw;
+    width: 600px;
     border-radius: 20px;
-    display: flow-root;
+    margin-left: 60px;
 }
-
-.Name label {
+form .name{
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    font-size: 15px;
-}
-
-.Email label {
-    font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    font-size: 15px;
-}
-
-.Message label {
-    font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    font-size: 15px;
-}
-
-.input-container-name input {
-    font-family: 'Poppins', sans-serif;
-    width: 33.5vw;
+    background: rgb(242, 239, 239);
+    margin-bottom: 10px;
     height: 10vh;
-    margin: 10px;
-    background: rgb(238, 236, 236);
     border-radius: 20px;
     border: none;
 }
-
-.input-container-email input {
+form .email{
     font-family: 'Poppins', sans-serif;
-    width: 33.5vw;
+    background: rgb(242, 239, 239);
+    margin-bottom: 10px;
     height: 10vh;
-    margin: 10px;
-    background: rgb(238, 236, 236);
     border-radius: 20px;
     border: none;
 }
-
-.input-container-message textarea {
+form .message{
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    width: 33.5vw;
-    height: 26vh;
-    margin: 10px;
-    background: rgb(238, 236, 236);
+    background: rgb(242, 239, 239);
+    margin-bottom: 10px;
+    height: 35vh;
     border-radius: 20px;
     border: none;
-    resize: none;
 }
-
-.outer .formbutton {
+form .submit{
     font-family: 'Poppins', sans-serif;
     width: 7vw;
     height: 5vh;
-    margin-left: 410px;
+    margin-left: 460px;
+    background: rgb(236, 176, 66);
     color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
     font-size: 15px;
     font-weight: bold;
-    background: rgb(234, 177, 71);
-    border-radius: 26px;
-    border: none;
-    cursor: pointer;
 }
-
-.outer .formbutton:hover {
+form .submit:hover{
     background: rgb(240, 206, 94);
 }
 

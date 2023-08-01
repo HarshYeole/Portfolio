@@ -27,42 +27,24 @@
         <div class="Hello">
             <div class="contact-info1">--- Say Hello ---👋</div>
             <div class="contact-info2">Contact Me</div>
-            <div class="outer">
-                <!-- Form -->
-                <div id="contact-form-container" class="column-contact-container">
-                    <div id="contact-name-input" class="input-container-name">
-                        <div class="Name">
-                            <label for="contact-name-input-field">Name :</label>
-                        </div>
-                        <input id="contact-name-input-field" tabindex="-1">
-                    </div>
-                    <div id="contact-email-input" class="input-container-email">
-                        <div class="Email">
-                            <label for="contact-email-input-field">Email :</label>
-                        </div>
-                        <input id="contact-email-input-field" type="email" tabindex="-1">   
-                    </div>
-                    <div id="contact-message-input" class="input-container-message">
-                        <div class="Message">
-                            <label for="contact-message-input-field">Message :</label>
-                        </div>
-                        <textarea id="contact-message-input-field" tabindex="-1"></textarea>
-                    </div>
-                    <div class="outer4"><button class="formbutton">Submit</button></div>
-                </div>
-            </div>
+            <form action="https://formsubmit.co/yeoleharsh577@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New Email">
+                <input class="name" type="name" id="name" name="name" placeholder=" Your name" required>
+                <input class="email" type="email" id="email" name="email" placeholder=" Email Address" required>
+                <input class="message" type="text" id="message" name="message" placeholder=" Write your message here" required>
+                <button class="submit" type="submit">Submit</button>
+            </form>
         </div>
         <div class="social">
             <div class="other">Other Socials:</div>
             <div class="socialinfo">
-                <span class="email-img"><img src="Images/email.png" width="35"></span>
-                <div class="email"><a href="https://mail.google.com/mail/u/0/#inbox">Email</a></div>
                 <span class="github-img"><img src="Images/github-icon.png" width="35"></span>
-                <div class="github"><a href="https://github.com/HarshYeole">Github</a></div>
+                <div class="github"><a href="https://github.com/HarshYeole" target="_blank">Github</a></div>
                 <span class="linkedin-img"><img src="Images/linkedin-icon.png" width="35"></span>
-                <div class="email"><a href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bq%2FQUzgzxRtOAoW51w6Xc4Q%3D%3D">LinkedIn</a></div>
+                <div class="email"><a href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bq%2FQUzgzxRtOAoW51w6Xc4Q%3D%3D" target="_blank">LinkedIn</a></div>
                 <span class="insta-img"><img src="Images/insta.svg" width="35"></span>
-                <div class="github"><a href="https://www.instagram.com/">Instagram</a></div>
+                <div class="github"><a href="https://www.instagram.com/" target="_blank">Instagram</a></div>
             </div>
         </div>
     </div>
